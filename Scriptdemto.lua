@@ -30,12 +30,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Thông tin"})
-     local Tab2o = MakeTab({Name = "Scrip Dead rails"})
+     local Tab0o = MakeTab({Name = "Thông tin"})
+     local Tab1o = MakeTab({Name = "Scrip Dead rails"})
 
 ------- BUTTON
     
-    Tabs.Main2:AddButton({
+    Tabs.Main1:AddButton({
     Title="NATIVE",
     Description="",
     Callback=function()
@@ -48,7 +48,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   end
 })
 
-Tabs.Main1:AddButton({
+Tabs.Main0:AddButton({
     Title = "TikTok",
     Description = "Vinhff08",
     Callback = function()
@@ -56,7 +56,7 @@ Tabs.Main1:AddButton({
     end
 })
 
-    Tabs.Main1:AddButton({
+    Tabs.Main0:AddButton({
     Title = "Facebook",
     Description = "Quý Quý",
     Callback = function()
@@ -64,7 +64,7 @@ Tabs.Main1:AddButton({
     end
 })
 
-    Tabs.Main1:AddButton({
+    Tabs.Main0:AddButton({
     Title = "Video Dead rails",
     Description = "TikTok",
     Callback = function()
