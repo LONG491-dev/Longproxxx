@@ -34,19 +34,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Scrip Dead rails"})
 
 ------- BUTTON
-    
-    Tabs.Main1:AddButton({
-    Title="NATIVE",
-    Description="",
-    Callback=function()
-	 local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-  }
-	 script_key="PASTEKEYHERE";
-(loadstring or load)(game:HttpGet("https://getnative.cc/script/loader"))() 
-  end
-})
 
 Tabs.Main0:AddButton({
     Title = "TikTok",
@@ -70,4 +57,17 @@ Tabs.Main0:AddButton({
     Callback = function()
         setclipboard("https://vt.tiktok.com/ZSB5q3C13/")
     end
+})
+
+Tabs.Main1:AddButton({
+    Title="NATIVE",
+    Description="",
+    Callback=function()
+	 local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+  }
+	 script_key="PASTEKEYHERE";
+(loadstring or load)(game:HttpGet("https://getnative.cc/script/loader"))() 
+  end
 })
