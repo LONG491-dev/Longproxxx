@@ -47,3 +47,27 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 (loadstring or load)(game:HttpGet("https://getnative.cc/script/loader"))() 
   end
 })
+
+Tabs.Main1:AddButton({
+    Title = "TikTok",
+    Description = "Vinhff08",
+    Callback = function()
+        setclipboard("https://www.tiktok.com/@vinhff08?_t=ZS-8xrSKE4oJ7a&_r=1")
+    end
+})
+
+    Tabs.Main1:AddButton({
+    Title = "Facebook",
+    Description = "Quý Quý",
+    Callback = function()
+        setclipboard("https://www.facebook.com/share/1FN6y7yYLS/")
+    end
+})
+
+    Tabs.Main1:AddButton({
+    Title = "Video Dead rails",
+    Description = "TikTok",
+    Callback = function()
+        setclipboard("https://vt.tiktok.com/ZSB5q3C13/")
+    end
+})
