@@ -35,7 +35,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
 ------- BUTTON
 
-Tabs.Main0:AddButton({
+Tabs.Main0o:AddButton({
     Title = "TikTok",
     Description = "Vinhff08",
     Callback = function()
@@ -43,7 +43,7 @@ Tabs.Main0:AddButton({
     end
 })
 
-    Tabs.Main0:AddButton({
+    Tabs.Main0o:AddButton({
     Title = "Facebook",
     Description = "Quý Quý",
     Callback = function()
@@ -51,7 +51,7 @@ Tabs.Main0:AddButton({
     end
 })
 
-    Tabs.Main0:AddButton({
+    Tabs.Main0o:AddButton({
     Title = "Video Dead rails",
     Description = "TikTok",
     Callback = function()
@@ -59,7 +59,7 @@ Tabs.Main0:AddButton({
     end
 })
 
-Tabs.Main1:AddButton({
+Tabs.Main1o:AddButton({
     Title="NATIVE",
     Description="",
     Callback=function()
